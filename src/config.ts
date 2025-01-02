@@ -2,18 +2,18 @@ import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
   website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
-  author: "Sat Naing",
-  profile: "https://satnaing.dev/",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
+  author: "Nookure",
+  profile: "https://nookure.com",
+  desc: "Welcome to Nookure Blog",
   title: "Nookure Blog",
   ogImage: "nookure-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 3,
-  scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
+  scheduledPostMargin: 15 * 60 * 1000,
   showArchives: true,
   editPost: {
-    url: "https://github.com/satnaing/astro-paper/edit/main/src/content/blog",
+    url: "https://github.com/Nookure/blog/edit/main/src/content/blog",
     text: "Suggest Changes",
     appendFilePath: true,
   },
